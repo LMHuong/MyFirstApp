@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h1>My first PHP page</h1>
+<h1>Hehehehehehehehehehehehehehe</h1>
 
 <?php 
 $sql = "SELECT id, name FROM miTable";
@@ -21,7 +21,7 @@ $stmt->setFetchMode(PDO::FETCH_ASSOC);
 $stmt->execute();
 $resultSet = $stmt->fetchAll();
 foreach ($resultSet as $row) {
-	echo $row['name'] . '\n';
+	echo $row['name'] . '<br>';
 }
 ?>
 </body>
